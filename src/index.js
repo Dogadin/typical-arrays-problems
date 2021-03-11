@@ -29,14 +29,6 @@ exports.avg = function avg (array) {
     return prev + current
   },0)
 
-  // return Math.floor(res/arr.lenth)
   return res/arr.length
 }
-
-let avgValue = exports.avg();
-console.log(avgValue)
-avgValue = exports.avg([]);
-console.log(avgValue)
-avgValue = exports.avg([-39,30,-32,-9,3,-2,-11,-4,-32,39,0,-14,7,20,-12,22,-23,19,0,2]);
-console.log(avgValue)
 
